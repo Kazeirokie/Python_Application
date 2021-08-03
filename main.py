@@ -51,13 +51,12 @@ class MainWidget(Widget):
         super(MainWidget, self).__init__(**kwargs)
         # print("INIT W:" + str(self.width) + "H:" + str(self.height))
         if __name__ == '__main__':
-        self.main()
-        self.init_vertical_lines()
-        self.init_horizontal_lines()
-        self.init_tiles()
-        self.init_ship()
-        self.pre_fill_tiles_coordinates()
-        self.generate_tiles_coordinates()
+         self.init_vertical_lines()
+         self.init_horizontal_lines()
+         self.init_tiles()
+         self.init_ship()
+         self.pre_fill_tiles_coordinates()
+         self.generate_tiles_coordinates()
 
         # Keyboard
         if self.is_desktop():
